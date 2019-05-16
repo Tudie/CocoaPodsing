@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                       测试O0O
                    DESC
 
-  spec.homepage     = "https://github.com/Tudie/CocoaPodsing/CocoaPodsing"
+  spec.homepage     = "https://github.com/Tudie/CocoaPodsing"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,10 +38,6 @@ Pod::Spec.new do |spec|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -88,9 +84,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Cocoapodsing", "Cocoapodsing/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-  # spec.public_header_files = "Cocoapodsing/**/*.h"
+  # spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
