@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                       测试O0O
                    DESC
 
-  spec.homepage     = "https://github.com/Tudie/CocoaPodsing"
+  spec.homepage     = "https://github.com/Tudie/CocoaPodsing/CocoaPodsing"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,9 +53,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Gw" => "yangguangrush@163.com" }
-  # Or just: spec.author    = "Gw"
-  # spec.authors            = { "Gw" => "yangguangrush@163.com" }
+  spec.author             = { "YG1992Love19" => "yangguangrush@gmail.com" }
+  # Or just: spec.author    = "YG1992Love19"
+  # spec.authors            = { "YG1992Love19" => "yangguangrush@gmail.com" }
 
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
