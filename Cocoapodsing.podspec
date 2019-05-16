@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Cocoapodsing"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "An iOS activity indicator view."
   s.description  = <<-DESC
                     Cocoapodsing is an iOS drop-in class that displays a translucent HUD
@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.author       = { 'YG1992Love19' => 'yangguangrush@gmail.com' }
   s.source       = { :git => "https://github.com/Tudie/CocoaPodsing.git", :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = '*.{h,m}'
   s.frameworks   = "Foundation", "UIKit"
   s.requires_arc = true
 end
