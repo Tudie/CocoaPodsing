@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,9 +88,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Cocoapodsing", "Cocoapodsing/Cocoapodsing/**/*.{h,m}"
+  spec.source_files  = "Cocoapodsing", "Cocoapodsing/**/*.{h,m}"
 
-  # spec.public_header_files = "Cocoapodsing/Cocoapodsing/**/*.h"
+  # spec.public_header_files = "Cocoapodsing/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
