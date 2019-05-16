@@ -16,6 +16,8 @@
 		C468F8AB228D47DD0030F6E4 /* CocoapodsingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F8AA228D47DD0030F6E4 /* CocoapodsingTests.m */; };
 		C468F8B6228D47DD0030F6E4 /* CocoapodsingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F8B5228D47DD0030F6E4 /* CocoapodsingUITests.m */; };
 		C468F8C5228D48590030F6E4 /* NSStringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F8C4228D48590030F6E4 /* NSStringValues.m */; };
+		C468F8C8228D4F610030F6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C468F8C7228D4F610030F6E4 /* UIKit.framework */; };
+		C468F8CA228D4F6F0030F6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C468F8C9228D4F6F0030F6E4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		C468F8B7228D47DD0030F6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C468F8C3228D48590030F6E4 /* NSStringValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringValues.h; sourceTree = "<group>"; };
 		C468F8C4228D48590030F6E4 /* NSStringValues.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringValues.m; sourceTree = "<group>"; };
+		C468F8C7228D4F610030F6E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C468F8C9228D4F6F0030F6E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C468F8CA228D4F6F0030F6E4 /* Foundation.framework in Frameworks */,
+				C468F8C8228D4F610030F6E4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				C468F8A9228D47DD0030F6E4 /* CocoapodsingTests */,
 				C468F8B4228D47DD0030F6E4 /* CocoapodsingUITests */,
 				C468F88F228D47DB0030F6E4 /* Products */,
+				C468F8C6228D4F610030F6E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +142,15 @@
 				C468F8B7228D47DD0030F6E4 /* Info.plist */,
 			);
 			path = CocoapodsingUITests;
+			sourceTree = "<group>";
+		};
+		C468F8C6228D4F610030F6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C468F8C9228D4F6F0030F6E4 /* Foundation.framework */,
+				C468F8C7228D4F610030F6E4 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
